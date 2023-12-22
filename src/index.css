@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(251, 250, 254);
+}
+
+/* FUENTE ECZAR */
+@font-face {
+    font-family: 'Eczar';
+    src: url('./font/Eczar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Eczar';
+    src: url('./font/Eczar-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Eczar';
+    src: url('./font/Eczar-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Puede variar según la fuente */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Eczar';
+    src: url('./font/Eczar-Medium.ttf') format('truetype');
+    font-weight: 500; /* Puede variar según la fuente */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Eczar';
+    src: url('./font/Eczar-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Puede variar según la fuente */
+    font-style: normal;
+  }
+  
+  /* Resto de tus estilos CSS aquí */
+  
+
+  
