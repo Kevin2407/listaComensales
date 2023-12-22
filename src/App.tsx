@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Nav from './components/common/Nav';
 import Footer from './components/common/Footer';
-import Anotacion from './components/principales/Anotacion';
+import Anotacion from './components/principales/anotaciones/Anotacion';
 
 type Props = {}
 

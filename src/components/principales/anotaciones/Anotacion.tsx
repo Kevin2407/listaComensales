@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
+import Selector from './Selector'
 
 type Props = {}
 
@@ -10,6 +11,7 @@ export default class Anotacion extends Component<Props, State> {
     render() {
         return (
             <div className="grid grid-cols-1 divide-x sm:grid-cols-2">
+                
                 <div>
                     <div>
                         <h1>Hoy</h1>
@@ -59,7 +61,10 @@ export default class Anotacion extends Component<Props, State> {
                             • Los comensales se piden a las 8:30 hs. Pasado dicho horario, no podra ser modificada la Lista.</p>
                     </div>
                 </div>
-                <div>02</div>
+                <Selector></Selector>
+                <div>
+
+                </div>
             </div>
         )
     }
