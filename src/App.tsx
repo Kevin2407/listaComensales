@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Nav from './components/common/Nav';
 import Footer from './components/common/Footer';
+import Anotacion from './components/principales/Anotacion';
 
 type Props = {}
 
@@ -21,14 +22,7 @@ export default class App extends Component<Props, State> {
                     <Nav></Nav>
                     <Switch>
                         <Route exact path='/'>
-                            <div className="font-sans text-3xl">
-                                Este texto usa la fuente Montserrat (Regular).
-                            </div>
-
-                            <div className="font-serif text-5xl">
-                                Este texto usa la fuente Eczar (Regular).
-                            </div>
-
+                            <Anotacion></Anotacion>
                         </Route>
                     </Switch>
                     <Footer></Footer>
