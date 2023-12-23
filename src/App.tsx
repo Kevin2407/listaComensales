@@ -20,11 +20,13 @@ export default class App extends Component<Props, State> {
             <>
                 <Router>
                     <Nav></Nav>
-                    <Switch>
-                        <Route exact path='/'>
-                            <Anotacion></Anotacion>
-                        </Route>
-                    </Switch>
+                    <div className='container px-10 mx-auto my-10 bg-gray-light rounded-2xl'>
+                        <Switch>
+                            <Route exact path='/'>
+                                <Anotacion></Anotacion>
+                            </Route>
+                        </Switch>
+                    </div>
                     <Footer></Footer>
                 </Router>
             </>

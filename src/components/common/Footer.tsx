@@ -13,8 +13,10 @@ export default class Footer extends Component<Props, State> {
       <>
         <footer className="footer p-10 bg-neutral text-neutral-content">
           <aside className='flex text-center'>
-            <img src={logo} alt="logo delResidencia Cebil" className='w-20' />
-            <p>ACME Industries Ltd.<br />
+            <a href="" className='btn btn-ghost h-full'>
+              <img src={logo} alt="logo delResidencia Cebil" className='w-20' />
+            </a>
+            <p>Residencia Cebil.<br />
               Ayacucho 685<br />
               San Miguel de Tucumán<br />
               Argentina – T4000INM<br />

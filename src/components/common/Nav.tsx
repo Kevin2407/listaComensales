@@ -13,7 +13,7 @@ const navigation: NavigationItem[] = [
 
 const Nav: React.FC = () => {
     return (
-        <div className="navbar bg-light shadow-md">
+        <div className="navbar bg-gray-light shadow-md">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl"><img src={cebil} alt="imagen logo residencia cebil" className='h-10' /></a>
             </div>
